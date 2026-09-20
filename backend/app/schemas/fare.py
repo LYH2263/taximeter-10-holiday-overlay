@@ -6,6 +6,7 @@ class FareRequest(BaseModel):
     night: bool = False
     trip_id: int | None = None
     persist: bool = True
+    service_date: str | None = None
 
 class CompareRequest(BaseModel):
     distance_km: float = Field(ge=0)
