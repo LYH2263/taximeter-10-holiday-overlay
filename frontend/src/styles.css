@@ -14,3 +14,12 @@ th,td { border-bottom:1px solid #443820; padding:0.35rem; }
 .hero-num { font-size:2rem; color:var(--accent); font-weight:700; }
 input { background:#120e06; border:1px solid var(--muted); color:var(--text); padding:0.3rem; }
 a { color: var(--accent); }
+.hint { color: var(--muted); font-size:0.9rem; }
+.err { color:#ff7a5c; font-weight:700; }
+.mini { padding:0.15rem 0.5rem; font-size:0.85rem; }
+.primary { font-weight:700; }
+.panel label { margin-right:1rem; display:inline-flex; gap:0.3rem; align-items:center; }
+.panel label.chk input { width:auto; }
+.result .hero-num { margin:0.2rem 0; }
+.tag-on { color:#7ddc7d; }
+.tag-off { color:var(--muted); }
